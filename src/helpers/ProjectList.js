@@ -1,39 +1,38 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj1 from "../assets/stroke-1.webp";
+import Proj2 from "../assets/stock.jfif";
+import Proj4 from "../assets/insta485.png";
+import Proj5 from "../assets/word-scra.png";
+import Proj3 from "../assets/solar.jfif";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Stroke Prediction",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "RShiny, R, Machine Learning",
   },
   {
-    name: "Ecommerce Website",
+    name: "Stock Market Simulation",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "C++, Data Structures and Algorithms",
   },
   {
-    name: "Spotify Clone",
+    name: "Solar Powered Rain Gauge",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "C, Arduino, Circuits, SolidWorks",
   },
   {
-    name: "Social Media Website",
+    name: "Instagram Clone",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "React, Flask, SQLite, Python, RESTAPI",
   },
   {
-    name: "Dashboard Visualizer",
+    name: "Word Scramble",
     image: Proj5,
-    skills: "JavaScript,HTML,CSS",
+    skills: "JavaScript, React, Syntactically Awesome Style Sheets ",
   },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
-  },
+  // {
+  //   name: "Mobile Game",
+  //   image: Proj6,
+  //   skills: "React Native,JavaScript,HTML,CSS",
+  // },
 ];

@@ -9,14 +9,11 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <a href="https://www.instagram.com/naveenjohnp/"> <InstagramIcon /></a>
+        <a href="https://www.linkedin.com/in/naveenjohn-premkumar/"><LinkedInIcon /></a>
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
+      <p> NaveenJohn Premkumar</p>
     </div>
   );
 }
-
 export default Footer;
