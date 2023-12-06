@@ -1,7 +1,5 @@
 import React from "react";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
@@ -9,10 +7,12 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <a href="https://www.instagram.com/naveenjohnp/"> <InstagramIcon /></a>
-        <a href="https://www.linkedin.com/in/naveenjohn-premkumar/"><LinkedInIcon /></a>
+        <InstagramIcon href="https://www.instagram.com/naveenjohnp/"/>
+        <LinkedInIcon href="https://www.linkedin.com/in/naveenjohn-premkumar/"/>
       </div>
-      <p> NaveenJohn Premkumar</p>
+      <p> © 2023 NaveenJohn Premkumar. All rights reserved.</p>
+      <p> Contact Me: naveenjp@umich.edu</p>
+        
     </div>
   );
 }

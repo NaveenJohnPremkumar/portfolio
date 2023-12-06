@@ -1,6 +1,6 @@
 import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
@@ -11,9 +11,20 @@ function Home() {
         <h2> Hi, My Name is NaveenJohn</h2>
         <div className="prompt">
           <p>A computer science student with a passion for learning and creating.</p>
-          <a href="https://www.linkedin.com/in/naveenjohn-premkumar/"><LinkedInIcon /> </a>
-          <EmailIcon />
-          <a href="https://github.com/NaveenJohnPremkumar"> <GithubIcon /> </a>
+          {/* LinkedInIcon with visually hidden text */}
+          <a href="https://www.linkedin.com/in/naveenjohn-premkumar/" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon />
+            <span className="visually-hidden">LinkedIn</span>
+          </a>
+          <a href="https://docs.google.com/document/d/1ksp43p7g2-q_8TjGgEdeAwrcUBMPpMdL/edit?usp=sharing&ouid=114331357844534747938&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
+            <InsertDriveFileIcon />
+            <span className="visually-hidden">Resume</span>
+          </a>
+          {/* GithubIcon with visually hidden text */}
+          <a href="https://github.com/NaveenJohnPremkumar" target="_blank" rel="noopener noreferrer">
+            <GithubIcon />
+            <span className="visually-hidden">GitHub</span>
+          </a>
         </div>
       </div>
       <div className="skills">

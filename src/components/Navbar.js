@@ -15,12 +15,12 @@ function Navbar() {
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
-        <button
+        <button aria-label="Toggle Navigation"
           onClick={() => {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          <ReorderIcon />
+          <ReorderIcon value=""/>
         </button>
       </div>
       <div className="links">
